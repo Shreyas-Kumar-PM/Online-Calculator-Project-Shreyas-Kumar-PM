@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="icon1.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+
+        
+        <h1>Online Calculator</h1>
+        <p>This is an interface of an online calculator.
+            Operations include addition(+), subtraction(-), multiplication(x), division(/), modulus(%) and squaring(x^2).
+            Enter the numbers and click the "=" (equals) button for diaplaying the result. 
+            Click the "AC" (all clear) button to reset the numbers.
+        </p>
+        <div class="container">
+            <div class="content-container">
+                <div class="display-content">
+                    <label>Enter First Number :</label>
+                    <br>
+                    <input type="text" placeholder="Add Number" class="number-1">
+                    <br>
+                    <br>
+                    <label for="number-2">Enter Second Number :</label>
+                    <br>
+                    <input type="text" class="number-2" placeholder="Add Number">
+                    <br>
+                    <br>
+                    <label for="result" class="result">Result : <p class="final-answer"></p></label>
+                </div>
+            </div>
+    
+            <div class="button-container">
+                <div class="display-button">
+                    <button class="reset-button">AC</button>
+                    <button class="addition-button"><i class="fa-solid fa-plus"></i></button>
+                    <br><br>
+                    <button class="multiply-button"><i class="fa-solid fa-xmark"></i></button>
+                    <button class="minus-button"><i class="fa-solid fa-minus"></i></button>
+                    <br><br>
+                    <button class="divide-button"><i class="fa-solid fa-divide"></i></button>
+                    <button class="modulo-button"><i class="fa-solid fa-percent"></i></button>
+                    <br><br>
+                    <button class="square-button">x^2</button>
+                    <button class="equals-button"><i class="fa-solid fa-equals"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <p>Thank You for using the services of our website. Have fun solving and calculating mathematical probelms!</p>
+        <script src="script.js"></script>
+    </body>
+</html>

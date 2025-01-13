@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(90deg,rgb(224, 224, 11),rgb(219, 4, 37));
+    max-height: 100vh;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    border: 15px;
+    font-size: 50px;
+}
+p{
+    margin-top: 40px;
+    font-size: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.display-content{
+    background-color: navy;
+    border: 10px solid;
+    border-radius: 15px;
+    width: 600px;
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+label{
+    color: burlywood;
+}
+.button-container{
+    display: flex;
+}
+
+.display-button{
+    background-color: navy;
+    border: 10px solid;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 20px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+}
+
+.final-answer{
+    margin: 10px;
+    text-align: center;
+    color: burlywood;
+}
