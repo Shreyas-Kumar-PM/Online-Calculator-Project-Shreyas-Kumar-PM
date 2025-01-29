@@ -67,3 +67,30 @@ button{
     text-align: center;
     color: burlywood;
 }
+
+@media only screen and (max-width:600px)
+{
+    p{
+        font-size: 10px;
+    }
+    .container{
+        display: block;
+    }
+    .display-content{
+        margin-top: 25px;
+        width: 250px;
+        margin-left: 0px;
+    }
+    label{
+        font-size: 20px;
+    }
+    input{
+        width: 200px;
+    }
+    .display-button{
+        margin-top: 25px;
+        width: 250px;
+        margin-left: 0;
+        margin-bottom: 0px;
+    }
+}
